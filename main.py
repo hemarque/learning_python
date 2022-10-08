@@ -41,3 +41,7 @@ print("nice to meet you", your_name)
 """
 
 print("hi! " * 3)
+
+print(10 / 3)
+print(10 // 3)
+print(10 % 3)
