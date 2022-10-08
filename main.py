@@ -76,3 +76,9 @@ print("who is %s?" % firstname)
 print("who is %s %s?" % (firstname, lastname))
 print("who is {} {}?".format(firstname, lastname))
 print(f"who is {firstname} {lastname}?")
+
+a, b, c, d, e = "ABCDE"
+print(a)
+print(e)
+
+
