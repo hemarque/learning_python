@@ -31,3 +31,6 @@ print(type({1: 1, 2: 5, 3: -1}))  # dict
 print(type(str(5)))
 
 print(len("hi!"))
+
+one, two, three = 1, 2, 3
+print(one, two, three)
