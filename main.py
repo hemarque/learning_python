@@ -59,3 +59,6 @@ print("he" < "hello")
 print("he" < "hi")
 print("he" < "ha")
 
+print(3 < 4 and "he" < "hi")
+print((3 < 4) and ("he" < "hi"))
+print(not (3 < 4) and not ("he" < "hi"))
