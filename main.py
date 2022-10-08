@@ -35,5 +35,8 @@ print(len("hi!"))
 one, two, three = 1, 2, 3
 print(one, two, three)
 
+"""
 your_name = input("what's your name? ")
 print("nice to meet you", your_name)
+"""
+
