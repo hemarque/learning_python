@@ -69,3 +69,10 @@ print("what are YOU doing?".upper())
 print("what are YOU doing?".capitalize())
 print("what are YOU doing?".lower())
 print("what are YOU doing?".count("o"))
+
+firstname = "John"
+lastname = "Galt"
+print("who is %s?" % firstname)
+print("who is %s %s?" % (firstname, lastname))
+print("who is {} {}?".format(firstname, lastname))
+print(f"who is {firstname} {lastname}?")
