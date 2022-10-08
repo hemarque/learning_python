@@ -16,4 +16,4 @@ comments
 print("hi there!")
 
 an_operation = 5+2
-print(an_operation)
+print("the result is", an_operation)
