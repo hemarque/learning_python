@@ -14,3 +14,6 @@ comments
 '''
 
 print("hi there!")
+
+a_variable = 5
+print(a_variable)
