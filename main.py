@@ -64,3 +64,8 @@ print((3 < 4) and ("he" < "hi"))
 print(not (3 < 4) and not ("he" < "hi"))
 
 print("this is a tab \t and a new line \n and a slash \\, got it?")
+
+print("what are YOU doing?".upper())
+print("what are YOU doing?".capitalize())
+print("what are YOU doing?".lower())
+print("what are YOU doing?".count("o"))
