@@ -15,5 +15,5 @@ comments
 
 print("hi there!")
 
-a_variable = 5
-print(a_variable)
+an_operation = 5+2
+print(an_operation)
