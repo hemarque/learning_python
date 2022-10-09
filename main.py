@@ -149,11 +149,12 @@ print("the list : %s" % copy_list)
 third_list.reverse()
 print("the list : %s" % third_list)
 
+third_list.clear()
+print("the list : %s" % third_list)
+
 text_with_spaces = " example "
 print(".%s." % text_with_spaces.rstrip())
 print(".%s." % text_with_spaces.lstrip())
 print(".%s." % text_with_spaces.strip())
-
-
-third_list.clear()
-print("the list : %s" % third_list)
+text_with_spaces = "    example    "
+print(".%s." % text_with_spaces.strip())
