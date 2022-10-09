@@ -102,6 +102,14 @@ print(name[::-1])
 print(name[::-2])
 print(name[::-3])
 
+print("\n***** cleaning strings *****\n")
+text_with_spaces = " example "
+print(".%s." % text_with_spaces.rstrip())
+print(".%s." % text_with_spaces.lstrip())
+print(".%s." % text_with_spaces.strip())
+text_with_spaces = "    example    "
+print(".%s." % text_with_spaces.strip())
+
 print("\n***** detecting the nature of a string content *****\n")
 print(name.isalpha())
 print("5".isnumeric())
@@ -148,13 +156,10 @@ copy_list = third_list.copy()
 print("the list : %s" % copy_list)
 third_list.reverse()
 print("the list : %s" % third_list)
-
+third_list.sort()
+print("the list : %s" % third_list)
 third_list.clear()
 print("the list : %s" % third_list)
 
-text_with_spaces = " example "
-print(".%s." % text_with_spaces.rstrip())
-print(".%s." % text_with_spaces.lstrip())
-print(".%s." % text_with_spaces.strip())
-text_with_spaces = "    example    "
-print(".%s." % text_with_spaces.strip())
+
+print("\n***** tbd *****\n")
