@@ -1,3 +1,5 @@
+import unittest
+
 # hi! this is a comment in python
 
 """
@@ -163,7 +165,18 @@ print("the list : %s" % third_list)
 
 print("\n***** simple method *****\n")
 
-def sayHelloTo(name):
+
+def say_helloTo(name):
     return "Hi %s" % name
 
-print(sayHelloTo("Helder"))
+
+print(say_helloTo("Helder"))
+
+
+class Greeter(unittest.TestCase):
+    def test_say_Hello(self):
+        self.assertEqual(say_helloTo("Helder"), "Hi Helder")
+
+
+if __name__ == '__main__':
+    unittest.main()
