@@ -161,5 +161,9 @@ print("the list : %s" % third_list)
 third_list.clear()
 print("the list : %s" % third_list)
 
+print("\n***** simple method *****\n")
 
-print("\n***** tbd *****\n")
+def sayHelloTo(name):
+    return "Hi %s" % name
+
+print(sayHelloTo("Helder"))
