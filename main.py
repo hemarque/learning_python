@@ -172,6 +172,7 @@ def say_helloTo(name):
 
 print(say_helloTo("Helder"))
 
+print("\n***** simple test *****\n")
 
 class Greeter(unittest.TestCase):
     def test_say_Hello(self):
