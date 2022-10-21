@@ -163,6 +163,21 @@ print("the list : %s" % third_list)
 third_list.clear()
 print("the list : %s" % third_list)
 
+print("\n***** tuples *****\n")
+
+my_tuple = tuple()
+another_tuple = ()
+mixed_tuple = (1, 3.1, "hi")
+print(type(my_tuple))
+print(type(another_tuple))
+print(type(mixed_tuple))
+print(mixed_tuple[1])
+print(mixed_tuple[-1])
+print(mixed_tuple.count("hi"))
+print(mixed_tuple.index("hi"))
+print(mixed_tuple)
+
+
 print("\n***** simple method *****\n")
 
 
