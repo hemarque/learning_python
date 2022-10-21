@@ -176,7 +176,7 @@ print(mixed_tuple[-1])
 print(mixed_tuple.count("hi"))
 print(mixed_tuple.index("hi"))
 print(mixed_tuple)
-
+print(mixed_tuple + (4, "aloha", 5.7))
 
 print("\n***** simple method *****\n")
 
@@ -188,6 +188,7 @@ def say_helloTo(name):
 print(say_helloTo("Helder"))
 
 print("\n***** simple test *****\n")
+
 
 class Greeter(unittest.TestCase):
     def test_say_Hello(self):
