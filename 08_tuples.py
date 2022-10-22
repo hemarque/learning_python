@@ -1,3 +1,9 @@
+"""
+ordered
+with duplicates
+immutable
+"""
+
 print("\n***** tuples *****\n")
 
 my_tuple = tuple()

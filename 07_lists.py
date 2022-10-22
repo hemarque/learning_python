@@ -1,3 +1,8 @@
+"""
+with duplicates
+ordered
+mutable
+"""
 print("\n***** lists *****\n")
 first_list = list()
 second_list = []
