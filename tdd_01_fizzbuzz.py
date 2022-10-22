@@ -3,7 +3,7 @@ import unittest
 
 def fizzbuzz_of(number):
     response = number
-    if number == 15:
+    if number % 15 == 0:
         response = "FizzBuzz"
     elif number % 3 == 0:
         response = "Fizz"
@@ -33,6 +33,9 @@ class FizzBuzzTestCase(unittest.TestCase):
 
     def test_fizzbuzz_of_15_is_FizzBuzz(self):
         self.assertEqual(fizzbuzz_of(15), "FizzBuzz")
+
+    def test_fizzbuzz_of_30_is_FizzBuzz(self):
+        self.assertEqual(fizzbuzz_of(30), "FizzBuzz")
 
 
 if __name__ == '__main__':
