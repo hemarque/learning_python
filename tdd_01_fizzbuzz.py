@@ -2,13 +2,14 @@ import unittest
 
 
 def fizzbuzz_of(number):
+    response = number
     if number == 15:
-        return "FizzBuzz"
-    if number % 3 == 0:
-        return "Fizz"
-    if number % 5 == 0:
-        return "Buzz"
-    return number
+        response = "FizzBuzz"
+    elif number % 3 == 0:
+        response = "Fizz"
+    elif number % 5 == 0:
+        response = "Buzz"
+    return response
 
 
 class FizzBuzzTestCase(unittest.TestCase):
