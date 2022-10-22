@@ -4,6 +4,8 @@ import unittest
 def fizzbuzz_of(number):
     if number == 3:
         return "Fizz"
+    if number == 5:
+        return "Buzz"
     return number
 
 
@@ -16,6 +18,9 @@ class FizzBuzzTestCase(unittest.TestCase):
 
     def test_fizzbuzz_of_3_is_fizz(self):
         self.assertEqual(fizzbuzz_of(3), "Fizz")
+
+    def test_fizzbuzz_of_5_is_buzz(self):
+        self.assertEqual(fizzbuzz_of(5), "Buzz")
 
 
 if __name__ == '__main__':
