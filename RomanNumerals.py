@@ -2,15 +2,18 @@ import unittest
 
 
 def toRoman(param):
-    if(param == 2):
-        return "II"
-    return "I"
+    response = ""
+    while param >= 1:
+        response += "I"
+        param -= 1
+    return response
 
 
 class RomanNumeralTranslator(unittest.TestCase):
     def testRomans(self):
         self.assertEqual("I", toRoman(1))
         self.assertEqual("II", toRoman(2))
+        self.assertEqual("III", toRoman(3))
 
 
 if __name__ == '__main__':
