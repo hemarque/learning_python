@@ -3,6 +3,9 @@ import unittest
 
 def toRoman(param):
     response = ""
+    while param >= 10:
+        response += "X"
+        param -= 10
     while param >= 9:
         response += "IX"
         param -= 9
@@ -29,6 +32,7 @@ class RomanNumeralTranslator(unittest.TestCase):
         self.assertEqual("VII", toRoman(7))
         self.assertEqual("VIII", toRoman(8))
         self.assertEqual("IX", toRoman(9))
+        self.assertEqual("X", toRoman(10))
 
 
 if __name__ == '__main__':
