@@ -49,3 +49,6 @@ third_list.sort()
 print("the list : %s" % third_list)
 third_list.clear()
 print("the list : %s" % third_list)
+
+matrix = [["0", "X", "0"], ["0", "X", "0"], ["0", "X", "0"]]
+print("%s\n%s\n%s" % (matrix[0], matrix[1], matrix[2]))
