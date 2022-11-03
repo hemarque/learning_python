@@ -33,3 +33,6 @@ changed_tuple = tuple(changed_tuple)
 # Changed list to tuple
 print(changed_tuple)
 # Remember, tuples are immutable
+
+matrix = (["0", "X", "0"], ["0", "X", "0"], ["0", "X", "0"])
+print("%s\n%s\n%s" % matrix)
